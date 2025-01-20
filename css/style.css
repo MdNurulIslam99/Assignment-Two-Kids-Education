@@ -158,6 +158,12 @@ nav li a {
 
 .banner-content .btn-enroll {
   background-color: #111111;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 30px;
 }
 
 .banner-image img {

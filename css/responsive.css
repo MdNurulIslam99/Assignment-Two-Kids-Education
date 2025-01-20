@@ -43,6 +43,12 @@
     margin: 20px auto;
     text-align: center;
   }
+  .banner-content .btn-enroll-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
 
   /* Standard Curriculum start */
 
