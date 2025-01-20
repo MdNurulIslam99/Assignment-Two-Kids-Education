@@ -1,0 +1,45 @@
+@media screen and (max-width: 576px) {
+  nav > ul,
+  .header-info > p,
+  .btn-primary {
+    display: none;
+  }
+  .toggle,
+  .horizontal-line {
+    display: block;
+    margin-right: 0;
+  }
+  .horizontal-line {
+    border: 2px solid #fea301;
+  }
+
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .banner-image img {
+    height: 400px;
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .banner-content .banner-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .banner-content .banner-description {
+    font-size: 1rem;
+
+    max-width: 350px;
+    margin: 20px auto;
+    text-align: center;
+  }
+}

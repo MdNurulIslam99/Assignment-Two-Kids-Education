@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* .body-container {
+  background: url("../assets/bg.png");
+  background-size: cover;
+} */
+
+.font-quicksand {
+  font-family: "Quicksand", serif;
+}
+
+.font-raleway {
+  font-family: "Raleway", serif;
+}
+
+/* header section start */
+
+/* nav section start */
+
+.header-container {
+  max-width: 90%;
+  margin: 10px auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.header-info > p {
+  color: #111111;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+  text-align: center;
+}
+
+nav li a {
+  text-decoration: none;
+  align-items: center;
+}
+
+.right-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-home {
+  color: #fea301;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 5px;
+}
+
+.nav-about {
+  color: #01acfd;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.nav-facilities {
+  color: #05d4df;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 5px;
+}
+.nav-admission {
+  color: #5d58ef;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.btn-primary {
+  color: white;
+  font-size: 1.3rem;
+  background-color: #fea301;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 30px;
+}
+
+.toggle,
+.horizontal-line {
+  display: none;
+}
+
+/* nav section end */
+
+/* banner section start */
+
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+}
+
+.banner-content .banner-title {
+  color: #111111;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.banner-content .banner-title-1 {
+  color: #fea301;
+}
+
+.banner-content .banner-title-2 {
+  color: #01acfd;
+}
+
+.banner-content .banner-description {
+  color: #111111;
+  font-size: 1.3rem;
+  font-weight: 400;
+  max-width: 650px;
+  margin: 20px auto;
+}
+
+.banner-content .btn-enroll {
+  background-color: #111111;
+}
+
+.banner-image img {
+  margin-left: 100px;
+  object-fit: cover;
+}
+
+/* banner section end */
+
+/* header section end */
