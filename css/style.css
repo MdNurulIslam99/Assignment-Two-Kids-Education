@@ -456,14 +456,13 @@ nav li a {
 
 /* footer section start */
 .footer-container {
-  max-width: 100%;
+  width: 100%;
   background-color: #01acfd;
-  margin: 0px auto;
   margin-top: 50px;
 }
 .footer-content {
   max-width: 80%;
-  margin: 20px auto;
+  margin: 0px auto;
   display: grid;
   column-gap: 100px;
   grid-template-columns: repeat(3, 1fr);
@@ -520,5 +519,6 @@ nav li a {
   display: flex;
   gap: 10px;
   padding: 10px;
+  margin-bottom: 30px;
 }
 /* footer section end */
