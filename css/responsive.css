@@ -75,6 +75,133 @@
     display: none;
   }
 
+  /* stories section start */
+  .stories-container {
+    margin: 30px 0px 0px 0px;
+  }
+  .stories-container .stories-title {
+    margin-top: 30px;
+  }
+
+  .stories-info {
+    display: none;
+  }
+
+  .stories-content {
+    min-width: 400px;
+    margin: 20px 5px;
+    height: 720px;
+    padding: 0px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .stories-right-section {
+    max-width: 100%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    position: relative;
+  }
+
+  .stories-classroom {
+    max-width: 100%;
+    /* border: 2px solid red; */
+    /* padding: 3px; */
+    height: 220px;
+    box-shadow: 4px 4px 8px rgba(184, 179, 179, 0.863);
+    border-radius: 10px;
+  }
+
+  .stories-classroom img {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+  }
+  .stories-classroom .stories-sub-title-1,
+  .stories-sub-title-2,
+  .stories-sub-title-3,
+  .stories-sub-title-4,
+  .stories-sub-title-5,
+  .stories-sub-title-6 {
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0px;
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  .display {
+    display: block;
+  }
+
+  .stories-classroom .right-section-1 {
+    background-color: #95b226;
+    padding: 3px;
+    width: 120px;
+    text-align: center;
+    top: 12vh;
+    left: 30px;
+    font-size: 0.8rem;
+    /* border: 2px solid red; */
+  }
+
+  .stories-classroom .right-section-2 {
+    background-color: #5d58f0;
+    padding: 3px;
+    width: 120px;
+    text-align: center;
+    top: 12vh;
+    left: 30px;
+    font-size: 0.8rem;
+  }
+
+  .stories-classroom .right-section-3 {
+    background-color: #95b226;
+    padding: 3px;
+    width: 120px;
+    text-align: center;
+    top: 12vh;
+    left: 30px;
+    font-size: 0.8rem;
+  }
+
+  .stories-classroom .right-section-4 {
+    background-color: rgb(109, 161, 5);
+    padding: 3px;
+    width: 120px;
+    text-align: center;
+    top: 12vh;
+    left: 30px;
+    font-size: 0.8rem;
+  }
+
+  .stories-classroom .right-section-5 {
+    background-color: #01acfd;
+    padding: 3px;
+    width: 120px;
+    text-align: center;
+    top: 12vh;
+    left: 30px;
+    font-size: 0.8rem;
+  }
+  .stories-classroom .right-section-6 {
+    background-color: #26b226;
+    padding: 3px;
+    width: 120px;
+    text-align: center;
+    top: 12vh;
+    left: 30px;
+    font-size: 0.8rem;
+  }
+
+  /* stories section end */
+
   /* footer section */
 
   .footer-container {
