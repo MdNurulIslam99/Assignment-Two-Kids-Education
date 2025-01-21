@@ -12,7 +12,7 @@
   .horizontal-line {
     border: 2px solid #fea301;
     max-width: 90%;
-    margin: 0 auto;
+    margin: 20px auto;
   }
 
   .banner-container {
@@ -52,18 +52,16 @@
 
   /* Standard Curriculum start */
 
+  .Standard-container .Standard-title {
+    font-size: 1.5rem;
+  }
+
   .Standard-container .Standard-card {
     grid-template-columns: repeat(1, 1fr);
     margin-top: 30px;
   }
   .Standard-card .standard-card-content {
     width: 600px;
-  }
-
-  .Standard-container .Standard-title {
-    font-size: 1.5rem;
-    margin-top: 10px;
-    padding: 10px;
   }
 
   .standard-card-content {
@@ -79,131 +77,106 @@
   }
 
   /* stories section start */
-  .stories-container {
-    margin: 30px 0px 0px 0px;
-  }
-  .stories-container .stories-title {
-    margin-top: 40px;
+
+  .stories-title-info .stories-title {
+    font-size: 1.6rem;
     text-align: center;
-    width: 390px;
-    margin-left: 5px;
   }
 
-  .stories-info {
+  .training-card {
     display: none;
   }
 
-  .stories-content {
-    min-width: 400px;
-    margin: 20px 5px;
-    height: 720px;
-    padding: 0px;
-    /* border: 2px solid red; */
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 0px; */
-  }
-
-  .stories-right-section {
-    max-width: 100%;
-    margin: 0px auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    position: relative;
-  }
-
-  .stories-classroom {
-    max-width: 100%;
-    /* border: 2px solid red; */
-    /* padding: 3px; */
-    height: 220px;
-    box-shadow: 4px 4px 8px rgba(184, 179, 179, 0.863);
-    border-radius: 10px;
-  }
-
-  .stories-classroom img {
+  .right-card-container .card {
     width: 180px;
-    height: 120px;
-    object-fit: cover;
+    height: 100px;
+    padding: 5px;
+    margin-top: 30px;
   }
-  .stories-classroom .stories-sub-title-1,
-  .stories-sub-title-2,
-  .stories-sub-title-3,
-  .stories-sub-title-4,
-  .stories-sub-title-5,
-  .stories-sub-title-6 {
-    color: black;
-    font-size: 0.8rem;
-    font-weight: 600;
-    padding: 0px;
-    width: 180px;
-    height: 50px;
+
+  .right-card-container .card-title {
     margin-top: 20px;
+    font-size: 0.7rem;
+    font-weight: 600;
   }
-  .display {
+  .card img {
+    width: 180px;
+    height: 100px;
+  }
+
+  .right-card-container .card-1 {
+    font-size: 0.6rem;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 125px;
+    left: 35px;
+  }
+
+  .right-card-container .card-2 {
+    font-size: 0.6rem;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 125px;
+    right: 30px;
+  }
+
+  .right-card-container .card-3 {
+    font-size: 0.6rem;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+  }
+
+  .right-card-container .card-4 {
+    font-size: 0.6rem;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+  }
+
+  .card-test {
     display: block;
   }
-
-  .stories-classroom .right-section-1 {
+  .right-card-container .card-5 {
+    color: white;
+    font-size: 0.6rem;
+    font-weight: 500;
+    position: absolute;
     background-color: #95b226;
-    padding: 3px;
-    width: 120px;
+    width: 100px;
     text-align: center;
-    top: 12vh;
-    left: 30px;
-    font-size: 0.8rem;
-    /* border: 2px solid red; */
+    padding: 5px;
+    border-radius: 10px;
+    top: 95px;
+    left: 40px;
   }
 
-  .stories-classroom .right-section-2 {
-    background-color: #5d58f0;
-    padding: 3px;
-    width: 120px;
-    text-align: center;
-    top: 12vh;
-    left: 30px;
-    font-size: 0.8rem;
-  }
-
-  .stories-classroom .right-section-3 {
+  .right-card-container .card-6 {
+    color: white;
+    font-size: 0.6rem;
+    font-weight: 500;
+    position: absolute;
     background-color: #95b226;
-    padding: 3px;
-    width: 120px;
+    width: 100px;
     text-align: center;
-    top: 12vh;
-    left: 30px;
-    font-size: 0.8rem;
+    padding: 5px;
+    border-radius: 10px;
+    top: 95px;
+    left: 40px;
   }
-
-  .stories-classroom .right-section-4 {
-    background-color: rgb(109, 161, 5);
-    padding: 3px;
-    width: 120px;
-    text-align: center;
-    top: 12vh;
-    left: 30px;
-    font-size: 0.8rem;
-  }
-
-  .stories-classroom .right-section-5 {
-    background-color: #01acfd;
-    padding: 3px;
-    width: 120px;
-    text-align: center;
-    top: 12vh;
-    left: 30px;
-    font-size: 0.8rem;
-  }
-  .stories-classroom .right-section-6 {
-    background-color: #26b226;
-    padding: 3px;
-    width: 120px;
-    text-align: center;
-    top: 12vh;
-    left: 30px;
-    font-size: 0.8rem;
+  .card-position {
+    position: relative;
+    top: -20px;
   }
 
   /* stories section end */

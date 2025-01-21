@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-/* .body-container {
-  background: url("../assets/bg.png");
-  background-size: cover;
-} */
-
 .font-quicksand {
   font-family: "Quicksand", serif;
 }
@@ -188,13 +183,12 @@ nav li a {
 /* header section end */
 
 /* Standard Curriculum start */
+
 .Standard-container {
   max-width: 90%;
   margin: 0 auto;
   background: url("../assets/bg.png");
-  /* background-size: cover;
-  background-repeat: no-repeat; */
-  background-color: #f7f7f7;
+  background-size: cover;
   border-radius: 10px;
 }
 
@@ -216,15 +210,15 @@ nav li a {
 
 .standard-card-content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  flex-direction: column;
-  max-width: 400px;
-  max-height: 550px;
-  margin: 30px auto;
+  width: 400px;
+  height: 500px;
   padding: 20px;
   border-radius: 10px;
+  /* border: 2px solid red; */
 }
 
 .standard-card-content h2 {
@@ -243,12 +237,42 @@ nav li a {
 }
 
 .standard-card-content a {
-  /* color: #64c8ff; */
   font-size: 1rem;
   font-weight: 700;
   padding: 5px;
   text-decoration: none;
 }
+
+.card-bg-1 {
+  box-shadow: 4px 4px 20px rgb(236, 230, 230);
+  /* blue */
+  background: linear-gradient(
+    5deg,
+    rgba(255, 255, 255, 1) 61%,
+    rgba(227, 246, 254, 1) 100%
+  );
+}
+
+.card-bg-2 {
+  box-shadow: 4px 4px 20px rgb(236, 230, 230);
+  /* yellow */
+  background: linear-gradient(
+    5deg,
+    rgba(255, 255, 255, 1) 61%,
+    rgba(255, 244, 220, 1) 100%
+  );
+}
+
+.card-bg-3 {
+  box-shadow: 4px 4px 20px rgb(236, 230, 230);
+  /* braun */
+  background: linear-gradient(
+    5deg,
+    rgba(255, 255, 255, 1) 55%,
+    rgba(245, 237, 255, 1) 68%
+  );
+}
+
 .card-anchor-1 {
   color: #64c8ff;
 }
@@ -259,18 +283,12 @@ nav li a {
   color: #8700ff;
 }
 
-.card-bg-1,
-.card-bg-2,
-.card-bg-3 {
-  box-shadow: 8px 8px 16px rgb(197, 188, 188);
-}
-
 /* Standard Curriculum end */
 
 /* control section start */
 .control-container {
   max-width: 90%;
-  margin: 30px auto;
+  margin: 70px auto;
 }
 
 .control-content {
@@ -281,8 +299,8 @@ nav li a {
 }
 
 .control-content div {
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
   background-color: #fea301;
   border: none;
   border-radius: 50%;
@@ -295,176 +313,197 @@ nav li a {
 /* control section end */
 
 /* our stories section start  */
-.stories-container {
-  max-width: 90%;
-  margin: 30px auto;
+
+.stories-title-info {
   background: url("../assets/bg.png");
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
+  background-size: cover;
 }
 
-.stories-container .stories-title {
+.stories-title-info .stories-title {
   color: black;
   font-size: 2.8rem;
   font-weight: 700;
-  margin-top: 70px;
+  margin-top: 30px;
   text-align: center;
 }
 
-.stories-content {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  padding: 20px;
-  margin-top: 50px;
+.stories-container {
+  background: url("../assets/bg.png"),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 63%,
+      rgba(249, 224, 180, 1) 100%
+    );
+  background-size: contain;
+  position: relative;
 }
 
-.stories-classroom {
-  max-width: 40%;
-  position: relative;
-  /* margin: 30px auto; */
+.stories-container-info {
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  height: 650px;
 }
-.stories-classroom img {
-  max-width: 500px;
+
+.training-card {
+  position: relative;
+  margin-top: 30px;
+  height: 580px;
+  background-color: white;
+  box-shadow: 4px 8px 4px 8px whitesmoke;
+  padding: 20px;
   border-radius: 10px;
 }
+.training-card img {
+  border-radius: 10px;
+  object-fit: cover;
+}
 
-.stories-classroom .stories-sub-title {
+.training-card .training-card-content {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.training-card .training-title {
   color: black;
   font-size: 1.5rem;
   font-weight: 700;
   margin-top: 30px;
 }
 
-.stories-classroom .stories-description {
+.training-card .training-description {
   color: #666666;
   font-size: 1rem;
-  font-family: Raleway;
   font-weight: 500;
-  margin-top: 20px;
 }
 
-.stories-classroom .stories-classroom-anchor {
-  text-decoration: none;
+.training-card .training-date {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
   background-color: #3cd8e8;
-  color: #ffffff;
-  padding: 10px 20px;
-  border-radius: 20px;
+  width: 170px;
   text-align: center;
+  padding: 5px;
+  border-radius: 10px;
   position: absolute;
-  top: 40vh;
-  left: 30px;
+  top: 340px;
+  left: 70px;
+  text-decoration: none;
 }
-.stories-right-section {
-  max-width: 50%;
+
+.right-card-container {
   display: grid;
-  justify-items: center;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   position: relative;
 }
+.right-card-container .card {
+  width: 320px;
+  height: 280px;
+  background-color: white;
+  box-shadow: 4px 8px 4px 8px whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
 
-.display {
+.right-card-container .card-title {
+  margin-top: 30px;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.card img {
+  border-radius: 10px;
+  object-fit: cover;
+}
+.card a {
+  text-decoration: none;
+}
+
+.right-card-container .card-1 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #95b226;
+  width: 170px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  position: absolute;
+  top: 200px;
+  left: 70px;
+}
+
+.right-card-container .card-2 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #5d58f0;
+  width: 170px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  position: absolute;
+  top: 200px;
+  right: 80px;
+}
+
+.right-card-container .card-3 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #95b226;
+  width: 170px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  position: absolute;
+  top: 180px;
+  left: 70px;
+}
+.right-card-container .card-4 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #95b226;
+  width: 170px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  position: absolute;
+  top: 180px;
+  left: 70px;
+}
+
+.card-test {
   display: none;
 }
+.card-position {
+  position: relative;
+  top: -30px;
+}
 
-.stories-classroom .stories-sub-title-1,
-.stories-sub-title-2,
-.stories-sub-title-3,
-.stories-sub-title-4,
-.stories-sub-title-5,
-.stories-sub-title-6 {
-  color: black;
-  font-size: 1rem;
+.btn-view-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-bottom: 30px;
+}
+
+.btn-view {
+  color: white;
+  font-size: 1.3rem;
+  background-color: #111111;
   font-weight: 700;
-  padding: 10px;
-  text-align: center;
-  width: 250px;
-  margin-top: 20px;
-}
-
-.stories-classroom .right-section-1 {
-  text-decoration: none;
-  background-color: #95b226;
-  color: #ffffff;
-  font-size: 1rem;
-  padding: 10px;
-  width: 180px;
-  border-radius: 20px;
-  text-align: center;
-  position: absolute;
-  top: 22vh;
-  left: 55px;
-  /* border: 2px solid red; */
-}
-
-.stories-classroom .right-section-2 {
-  text-decoration: none;
-  font-size: 1rem;
-  background-color: #5d58f0;
-  color: #ffffff;
-  padding: 10px;
-  width: 180px;
-  border-radius: 20px;
-  text-align: center;
-  position: absolute;
-  top: 22vh;
-  left: 55px;
-}
-
-.stories-classroom .right-section-3 {
-  text-decoration: none;
-  font-size: 1rem;
-  background-color: #95b226;
-  color: #ffffff;
-  padding: 10px;
-  width: 180px;
-  border-radius: 20px;
-  text-align: center;
-  position: absolute;
-  top: 22vh;
-  left: 55px;
-}
-
-.stories-classroom .right-section-4 {
-  text-decoration: none;
-  font-size: 1rem;
-  background-color: #95b226;
-  color: #ffffff;
-  padding: 10px;
-  width: 180px;
-  border-radius: 20px;
-  text-align: center;
-  position: absolute;
-  top: 22vh;
-  left: 55px;
-}
-
-.stories-classroom .right-section-5 {
-  text-decoration: none;
-  font-size: 1rem;
-  background-color: #01acfd;
-  color: #ffffff;
-  padding: 10px;
-  width: 180px;
-  border-radius: 20px;
-  text-align: center;
-  position: absolute;
-  top: 22vh;
-  left: 30px;
-}
-.stories-classroom .right-section-6 {
-  text-decoration: none;
-  font-size: 1rem;
-  background-color: #95b226;
-  color: #ffffff;
-  padding: 10px;
-  width: 180px;
-  border-radius: 20px;
-  text-align: center;
-  position: absolute;
-  top: 22vh;
-  left: 30px;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 30px;
 }
 /* our stories section end */
 
@@ -472,7 +511,8 @@ nav li a {
 .footer-container {
   width: 100%;
   background-color: #01acfd;
-  margin-top: 50px;
+  position: relative;
+  top: -28px;
 }
 .footer-content {
   max-width: 80%;
@@ -512,16 +552,6 @@ nav li a {
   margin-top: 50px;
 }
 
-/* .kids-education {
-  border: 2px solid blue;
-}
-.about-school {
-  border: 2px solid red;
-}
-
-.touch-section {
-  border: 2px solid yellowgreen;
-} */
 .about-school p {
   color: white;
   font-size: 1.3rem;
