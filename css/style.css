@@ -124,6 +124,18 @@ nav li a {
 
 /* nav section end */
 
+/* marquee section start */
+.marquee {
+  width: 95%;
+  margin: 0px auto;
+  font-size: 2rem;
+  color: tomato;
+  border: 2px solid green;
+  border-radius: 10px;
+  background-color: yellowgreen;
+}
+/* marquee section end */
+
 /* banner section start */
 
 .banner-container {
@@ -180,8 +192,10 @@ nav li a {
   max-width: 90%;
   margin: 0 auto;
   background: url("../assets/bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  background-color: #f7f7f7;
+  border-radius: 10px;
 }
 
 .Standard-container .Standard-title {
