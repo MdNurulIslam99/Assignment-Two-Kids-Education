@@ -56,6 +56,9 @@
     grid-template-columns: repeat(1, 1fr);
     margin-top: 30px;
   }
+  .Standard-card .standard-card-content {
+    width: 600px;
+  }
 
   .Standard-container .Standard-title {
     font-size: 1.5rem;
@@ -80,7 +83,10 @@
     margin: 30px 0px 0px 0px;
   }
   .stories-container .stories-title {
-    margin-top: 30px;
+    margin-top: 40px;
+    text-align: center;
+    width: 390px;
+    margin-left: 5px;
   }
 
   .stories-info {
@@ -93,10 +99,10 @@
     height: 720px;
     padding: 0px;
     /* border: 2px solid red; */
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 0px;
+    gap: 0px; */
   }
 
   .stories-right-section {
