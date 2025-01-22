@@ -1,18 +1,16 @@
 @media screen and (max-width: 576px) {
+  .header-content {
+    border: 5px solid #fea301;
+  }
+
   nav > ul,
   .header-info > p,
   .btn-primary {
     display: none;
   }
-  .toggle,
-  .horizontal-line {
+  .toggle {
     display: block;
     margin-right: 0;
-  }
-  .horizontal-line {
-    border: 2px solid #fea301;
-    max-width: 90%;
-    margin: 20px auto;
   }
 
   .banner-container {

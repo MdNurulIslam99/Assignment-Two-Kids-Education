@@ -112,8 +112,7 @@ nav li a {
   padding: 8px 30px;
 }
 
-.toggle,
-.horizontal-line {
+.toggle {
   display: none;
 }
 
@@ -122,7 +121,7 @@ nav li a {
 /* marquee section start */
 .marquee {
   width: 95%;
-  margin: 0px auto;
+  margin: 30px auto;
   font-size: 2rem;
   color: tomato;
   border: 2px solid green;
