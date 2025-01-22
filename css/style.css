@@ -424,10 +424,10 @@ nav li a {
 }
 .card a {
   text-decoration: none;
+  color: white;
 }
 
 .right-card-container .card-1 {
-  color: white;
   font-size: 1rem;
   font-weight: 500;
   background-color: #95b226;
@@ -441,7 +441,6 @@ nav li a {
 }
 
 .right-card-container .card-2 {
-  color: white;
   font-size: 1rem;
   font-weight: 500;
   background-color: #5d58f0;
@@ -455,7 +454,6 @@ nav li a {
 }
 
 .right-card-container .card-3 {
-  color: white;
   font-size: 1rem;
   font-weight: 500;
   background-color: #95b226;
@@ -468,7 +466,6 @@ nav li a {
   left: 70px;
 }
 .right-card-container .card-4 {
-  color: white;
   font-size: 1rem;
   font-weight: 500;
   background-color: #95b226;
