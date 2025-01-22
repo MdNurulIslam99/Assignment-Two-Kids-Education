@@ -98,7 +98,7 @@
     font-weight: 600;
   }
   .card img {
-    width: 180px;
+    width: 165px;
     height: 100px;
   }
 
@@ -119,7 +119,7 @@
     padding: 5px;
     position: absolute;
     top: 125px;
-    right: 30px;
+    right: 40px;
   }
 
   .right-card-container .card-3 {
@@ -210,7 +210,9 @@
     font-size: 2.1rem;
   }
   .kids-education p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    width: 360px;
+    /* border: 2px solid red; */
   }
   .about-school p {
     font-size: 1.1rem;

@@ -205,6 +205,8 @@ nav li a {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin-top: 50px;
+  justify-items: center;
+  align-items: center;
 }
 
 .standard-card-content {
