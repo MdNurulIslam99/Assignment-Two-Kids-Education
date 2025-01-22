@@ -201,10 +201,11 @@
 
   .about-school h2,
   .touch-section h2 {
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1.3rem;
+    font-weight: 700;
     margin-top: 30px;
     padding: 5px;
+    text-align: left;
   }
   .kids-content h1 {
     font-size: 2.1rem;
@@ -219,5 +220,6 @@
     font-weight: 600;
     margin-top: 10px;
     padding: 5px;
+    text-align: left;
   }
 }
