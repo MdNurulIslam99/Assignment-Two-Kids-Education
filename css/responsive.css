@@ -177,11 +177,16 @@
     top: -20px;
   }
 
+  .btn-view {
+    margin-bottom: 20px;
+  }
+
   /* stories section end */
 
   /* footer section */
 
   .footer-container {
+    margin-top: 30px;
     margin-bottom: 0px;
   }
   .footer-content {
@@ -191,6 +196,7 @@
     max-width: 390px;
     padding: 0px;
     /* border: 2px solid red; */
+    margin-top: -30px;
   }
 
   .about-school h2,
